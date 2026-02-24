@@ -126,6 +126,8 @@ button.secondary { background:#e6eefc; color:#10316b; }
 .meta-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:0.4rem; margin-bottom:1rem; }
 .questions { padding-left:1.1rem; }
 .questions li { margin-bottom:1rem; line-height:1.45; }
+.question-figure { margin:0.6rem 0; }
+.question-figure img { max-width:220px; width:100%; height:auto; border:1px solid #111; }
 .answer-space { margin-top:0.4rem; border-top:1px dotted #9fb3c8; min-height:52px; }
 
 .actions { display:flex; gap:0.6rem; flex-wrap:wrap; }
