@@ -43,11 +43,11 @@
           <option value="2">2. Yazılı</option>
         </select>
 
-        <label for="questionCount">Soru Sayısı</label>
+        <label for="questionCount">Toplam Soru Sayısı</label>
         <input id="questionCount" type="number" min="3" max="20" value="8" />
 
         <div class="kazanım-header">
-          <span>Kazanım Seçimi</span>
+          <span>Kazanım Seçimi + Soru Adedi</span>
           <button id="toggleAll" type="button" class="secondary">Tümünü Seç / Kaldır</button>
         </div>
         <div id="kazanımlar" class="kazanımlar"></div>
@@ -56,6 +56,12 @@
       </section>
 
       <section class="card output">
+        <section class="question-browser card-lite">
+          <h3>Kazanıma Göre Soru Havuzu (Manuel Seçim)</h3>
+          <p id="questionBrowserInfo">Bir kazanıma tıklayarak o kazanımdaki soruları görüntüleyin.</p>
+          <div id="manualQuestions" class="manual-questions"></div>
+        </section>
+
         <div id="emptyState">
           <h2>Henüz yazılı oluşturulmadı</h2>
           <p>Sınıf, ders, dönem, yazılı no ve kazanımları seçerek yazılı oluşturun.</p>
@@ -65,7 +71,9 @@
 
         <div id="actions" class="hidden actions">
           <button id="printBtn" type="button">Yazdır</button>
-          <button id="downloadBtn" type="button" class="secondary">.txt İndir</button>
+          <button id="downloadTxtBtn" type="button" class="secondary">.txt İndir</button>
+          <button id="downloadDocBtn" type="button" class="secondary">Word (.doc) İndir</button>
+          <button id="downloadPdfBtn" type="button" class="secondary">PDF Çıktı Al</button>
         </div>
       </section>
     </main>
