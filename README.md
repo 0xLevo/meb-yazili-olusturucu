@@ -8,9 +8,13 @@ Bu proje, 5-8. sınıflar için ders, dönem, yazılı no ve kazanım seçerek k
 - 5, 6, 7, 8. sınıf filtreleme
 - Ders + dönem + yazılı no bazlı kapsamlı soru havuzu
 - Kazanım bazlı soru seçimi
-- Seçili kazanımlara göre dengeli ve hikâyesel (senaryolu) soru dağıtımı
+- Her kazanım için ayrı soru adedi belirleme
+- Kazanıma tıklayınca sağ panelde soru havuzunu görüntüleme
+- Soruları manuel işaretleyerek sınava dahil etme
+- Siyah-beyaz çıktıya uygun geometri/veri görselleri
+- Sorular arasında cevaplama boşlukları
 - Yazılıyı yazdırma
-- Yazılı metnini `.txt` olarak indirme
+- `.txt`, `Word (.doc)` ve PDF (tarayıcı üzerinden) çıktı alma
 
 ## Çalıştırma
 
